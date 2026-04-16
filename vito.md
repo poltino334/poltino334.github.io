@@ -1,3 +1,3 @@
 layout: page
-title: vito2
+title: vito
 permalink: /URL-PATH
