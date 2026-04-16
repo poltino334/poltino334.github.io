@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vito
+title: Vito Zanfadino
 permalink: /vito/
 ---
 
