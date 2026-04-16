@@ -156,6 +156,40 @@ section:hover {
   background: #dbeafe;
 }
 
+.images-section {
+  margin-top: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.image-grid img,
+.image-placeholder {
+  width: 100%;
+  min-height: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.image-grid img {
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+.image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: #e2e8f0;
+  color: #475569;
+  text-align: center;
+  font-weight: 600;
+}
+
 .back-to-top {
   position: fixed;
   right: 20px;
