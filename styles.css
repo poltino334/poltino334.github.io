@@ -88,12 +88,6 @@ section:hover {
   box-shadow: 0 10px 26px rgba(15, 23, 42, 0.12);
 }
 
-.bio-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
-}
-
 .home-layout {
   display: grid;
   grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
@@ -243,11 +237,6 @@ section:hover {
 
   .nav-links.is-open {
     display: flex;
-  }
-
-  .bio-header {
-    flex-direction: column;
-    gap: 16px;
   }
 
   .profile-image {

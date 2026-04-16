@@ -4,15 +4,16 @@ const backToTopButton = document.querySelector(".back-to-top");
 
 if (menuButton && navLinks) {
   menuButton.addEventListener("click", () => {
-    const isOpen = navLinks.classList.toggle("is-open");
-    menuButton.setAttribute("aria-expanded", String(isOpen));
+    menuButton.setAttribute(
+      "aria-expanded",
+      String(navLinks.classList.toggle("is-open"))
+    );
   });
 }
 
 if (backToTopButton) {
-  const toggleBackToTop = () => {
+  const toggleBackToTop = () =>
     backToTopButton.classList.toggle("is-visible", window.scrollY > 240);
-  };
 
   toggleBackToTop();
   window.addEventListener("scroll", toggleBackToTop);
